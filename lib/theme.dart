@@ -70,11 +70,11 @@ class Themes {
         fontFamily: GoogleFonts.workSans().fontFamily,
         color: const Color(0xff22A8B9)
       ),
-      // button: TextStyle(
-      //   fontSize: 14.sp,
-      //   fontWeight: FontWeight.w500,
-      //   letterSpacing: 1.25,
-      // ),
+      button: TextStyle(
+        fontSize: 17.sp,
+        fontWeight: FontWeight.w700,
+        fontFamily: GoogleFonts.poppins().fontFamily,
+      ),
       caption: TextStyle(
         fontSize: 14.sp,
         fontWeight: FontWeight.w600,
@@ -98,13 +98,15 @@ class Themes {
     cardColor: const Color(0xffEEEEEE),
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
-          foregroundColor: const Color(0xff22A8B9),
+          backgroundColor: const Color(0xff22A8B9),
           maximumSize: Size(343.w, 55.h),
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(12.r),
           ),
           textStyle:
-              TextStyle(color: const Color(0xffffffff), fontSize: 17.sp)),
+              TextStyle(color: const Color(0xffffffff),
+              fontFamily: GoogleFonts.poppins().fontFamily,
+               fontSize: 17.sp)),
     ),
     bottomAppBarColor: Colors.deepPurple,
     buttonTheme: const ButtonThemeData(
