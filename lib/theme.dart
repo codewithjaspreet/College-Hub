@@ -20,7 +20,7 @@ class Themes {
       ),
       headline3: TextStyle(
         fontSize: 22.sp,
-        fontWeight: FontWeight.w500,
+        fontWeight: FontWeight.w600,
         fontFamily: GoogleFonts.workSans().fontFamily,
         color: const Color(0xff000000)
       ),
@@ -32,10 +32,12 @@ class Themes {
         color: const Color(0xff161616)
 
       ),
-      // headline5: TextStyle(
-      //   fontSize: 24.sp,
-      //   fontWeight: FontWeight.w400,
-      // ),
+      headline5: TextStyle(
+        fontSize: 15.sp,
+        fontWeight: FontWeight.w600,
+        fontFamily: GoogleFonts.inter().fontFamily,
+        color: const Color(0xff161616) 
+      ),
       headline6: TextStyle(
         fontSize: 14.sp,
         fontWeight: FontWeight.w500,
@@ -62,25 +64,26 @@ class Themes {
         fontFamily: GoogleFonts.poppins().fontFamily,
       ),
       bodyText2: TextStyle(
-        fontSize: 14.sp,
-        fontWeight: FontWeight.w400,
-        letterSpacing: 0.25,
+       fontSize: 10.sp,
+        fontWeight: FontWeight.w800,
+        fontFamily: GoogleFonts.workSans().fontFamily,
+        color: const Color(0xff22A8B9)
       ),
-      button: TextStyle(
-        fontSize: 14.sp,
-        fontWeight: FontWeight.w500,
-        letterSpacing: 1.25,
-      ),
-      caption: TextStyle(
-        fontSize: 12.sp,
-        fontWeight: FontWeight.w400,
-        letterSpacing: 0.4,
-      ),
-      overline: TextStyle(
-        fontSize: 10.sp,
-        fontWeight: FontWeight.w400,
-        letterSpacing: 1.5,
-      ),
+      // button: TextStyle(
+      //   fontSize: 14.sp,
+      //   fontWeight: FontWeight.w500,
+      //   letterSpacing: 1.25,
+      // ),
+      // caption: TextStyle(
+      //   fontSize: 12.sp,
+      //   fontWeight: FontWeight.w400,
+      //   letterSpacing: 0.4,
+      // ),
+      // overline: TextStyle(
+      //   fontSize: 10.sp,
+      //   fontWeight: FontWeight.w400,
+      //   letterSpacing: 1.5,
+      // ),
     ),
     backgroundColor: const Color(0xffffffff),
     primaryColor: const Color(0xff002857),
@@ -88,6 +91,7 @@ class Themes {
     indicatorColor: const Color(0xff0A5587),
     shadowColor: const Color(0xff333333),
     disabledColor: const Color(0xff666666),
+    canvasColor: const Color(0xffF5C443),
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
           foregroundColor: const Color(0xff22A8B9),
