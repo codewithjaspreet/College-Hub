@@ -62,6 +62,7 @@ class Themes {
         fontSize: 15.sp,
         fontWeight: FontWeight.w400,
         fontFamily: GoogleFonts.poppins().fontFamily,
+        color: Colors.black
       ),
       bodyText2: TextStyle(
        fontSize: 10.sp,
@@ -74,11 +75,13 @@ class Themes {
       //   fontWeight: FontWeight.w500,
       //   letterSpacing: 1.25,
       // ),
-      // caption: TextStyle(
-      //   fontSize: 12.sp,
-      //   fontWeight: FontWeight.w400,
-      //   letterSpacing: 0.4,
-      // ),
+      caption: TextStyle(
+        fontSize: 14.sp,
+        fontWeight: FontWeight.w600,
+        // height: 21.sp,
+        color: const Color(0xff888888),
+        // fontFamily: GoogleFonts.raleway().fontFamily,
+      ),
       // overline: TextStyle(
       //   fontSize: 10.sp,
       //   fontWeight: FontWeight.w400,
@@ -92,6 +95,7 @@ class Themes {
     shadowColor: const Color(0xff333333),
     disabledColor: const Color(0xff666666),
     canvasColor: const Color(0xffF5C443),
+    cardColor: const Color(0xffEEEEEE),
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
           foregroundColor: const Color(0xff22A8B9),

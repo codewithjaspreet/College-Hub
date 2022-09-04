@@ -1,4 +1,5 @@
 import 'package:college_hub/Screens/home.dart';
+import 'package:college_hub/Screens/laundry.dart';
 import 'package:college_hub/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -22,10 +23,10 @@ class MyApp extends StatelessWidget {
       splitScreenMode: true,
       builder: (context, a) {
       return GetMaterialApp(
-        title: 'College Hub',
         theme: Themes.light,
         darkTheme: Themes.dark,
-        home:   Home(),
+        debugShowCheckedModeBanner: false,
+        home:   Laundry(),
       );
     });
   }
