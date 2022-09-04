@@ -12,40 +12,33 @@ class Themes {
       //   letterSpacing: -1.5,
       // ),
       headline2: TextStyle(
-        fontSize: 26.sp,
-        fontWeight: FontWeight.bold,
-        fontFamily: GoogleFonts.inter().fontFamily,
-        fontStyle: FontStyle.normal,
-        color: const Color(0xff99D9D9)
-      ),
+          fontSize: 26.sp,
+          fontWeight: FontWeight.bold,
+          fontFamily: GoogleFonts.inter().fontFamily,
+          fontStyle: FontStyle.normal,
+          color: const Color(0xff99D9D9)),
       headline3: TextStyle(
-        fontSize: 22.sp,
-        fontWeight: FontWeight.w600,
-        fontFamily: GoogleFonts.workSans().fontFamily,
-        color: const Color(0xff000000)
-      ),
+          fontSize: 22.sp,
+          fontWeight: FontWeight.w600,
+          fontFamily: GoogleFonts.workSans().fontFamily,
+          color: const Color(0xff000000)),
       headline4: TextStyle(
-        fontSize: 20.sp,
-        fontWeight: FontWeight.w700,
-        // letterSpacing: 0.25,
-        fontFamily: GoogleFonts.inter().fontFamily,
-        color: const Color(0xff161616)
-
-      ),
+          fontSize: 20.sp,
+          fontWeight: FontWeight.w700,
+          // letterSpacing: 0.25,
+          fontFamily: GoogleFonts.inter().fontFamily,
+          color: const Color(0xff161616)),
       headline5: TextStyle(
-        fontSize: 15.sp,
-        fontWeight: FontWeight.w600,
-        fontFamily: GoogleFonts.inter().fontFamily,
-        color: const Color(0xff161616) 
-      ),
+          fontSize: 15.sp,
+          fontWeight: FontWeight.w600,
+          fontFamily: GoogleFonts.inter().fontFamily,
+          color: const Color(0xff161616)),
       headline6: TextStyle(
-        fontSize: 14.sp,
-        fontWeight: FontWeight.w500,
-        fontFamily: GoogleFonts.inter().fontFamily,
-        height: 16.94.h,
-        color: const Color(0xff161616)
-
-      ),
+          fontSize: 14.sp,
+          fontWeight: FontWeight.w500,
+          fontFamily: GoogleFonts.inter().fontFamily,
+          height: 16.94.h,
+          color: const Color(0xff161616)),
       subtitle1: TextStyle(
         fontSize: 12.sp,
         fontWeight: FontWeight.w400,
@@ -53,22 +46,20 @@ class Themes {
         fontFamily: GoogleFonts.inter().fontFamily,
       ),
       subtitle2: TextStyle(
-        fontSize: 10.sp,
-        fontWeight: FontWeight.w600,
-        fontFamily: GoogleFonts.workSans().fontFamily,
-        color: const Color(0xff161616)
-      ),
+          fontSize: 10.sp,
+          fontWeight: FontWeight.w600,
+          fontFamily: GoogleFonts.workSans().fontFamily,
+          color: const Color(0xff161616)),
       bodyText1: TextStyle(
         fontSize: 15.sp,
         fontWeight: FontWeight.w400,
         fontFamily: GoogleFonts.poppins().fontFamily,
       ),
       bodyText2: TextStyle(
-       fontSize: 10.sp,
-        fontWeight: FontWeight.w800,
-        fontFamily: GoogleFonts.workSans().fontFamily,
-        color: const Color(0xff22A8B9)
-      ),
+          fontSize: 10.sp,
+          fontWeight: FontWeight.w800,
+          fontFamily: GoogleFonts.workSans().fontFamily,
+          color: const Color(0xff22A8B9)),
       // button: TextStyle(
       //   fontSize: 14.sp,
       //   fontWeight: FontWeight.w500,

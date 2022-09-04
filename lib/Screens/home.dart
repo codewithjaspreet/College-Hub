@@ -32,36 +32,34 @@ class Home extends StatelessWidget {
               children: [
                 const Top(),
                 const BannerCarousel(),
-                Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Container(
-                        margin: EdgeInsets.only(left: 12.w, top: 24.h),
-                        child: Text('Categories',
-                            style: Theme.of(context).textTheme.headline4),
+                Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                  Container(
+                    margin: EdgeInsets.only(left: 12.w, top: 24.h),
+                    child: Text('Categories',
+                        style: Theme.of(context).textTheme.headline4),
+                  ),
+                  Container(
+                    margin: EdgeInsets.only(top: 16.h, left: 8.w, right: 8.w),
+                    height: 450.h,
+                    width: double.infinity,
+                    child: GridView.builder(
+                      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                        crossAxisSpacing: 14.w,
+                        mainAxisSpacing: 14.h,
+                        crossAxisCount: 3,
                       ),
-                      Container(
-                        margin:
-                            EdgeInsets.only(top: 16.h, left: 8.w, right: 8.w),
-                        height: 450.h,
-                        width: double.infinity,
-                        child: GridView.builder(
-                          gridDelegate:
-                              SliverGridDelegateWithFixedCrossAxisCount(
-                            crossAxisSpacing: 14.w,
-                            mainAxisSpacing: 14.h,
-                            crossAxisCount: 3,
-                          ),
-                          shrinkWrap: true,
-                          padding: EdgeInsets.zero,
-                          itemBuilder: (context, index) {
-                            return Category(image: categories[index],);
-                          },
-                          // physics: const NeverScrollableScrollPhysics(),
-                          itemCount: categories.length,
-                        ),
-                      )
-                    ])
+                      shrinkWrap: true,
+                      padding: EdgeInsets.zero,
+                      itemBuilder: (context, index) {
+                        return Category(
+                          image: categories[index],
+                        );
+                      },
+                      // physics: const NeverScrollableScrollPhysics(),
+                      itemCount: categories.length,
+                    ),
+                  )
+                ])
               ],
             ),
           )),
@@ -70,9 +68,9 @@ class Home extends StatelessWidget {
 }
 
 class Category extends StatelessWidget {
-   const Category({
+  const Category({
     Key? key,
-   required this.image, 
+    required this.image,
   }) : super(key: key);
   final String image;
   @override
