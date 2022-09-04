@@ -37,6 +37,7 @@ dependencies:
   get: ^4.6.5
   flutter_screenutil: ^5.5.4
   google_fonts: ^3.0.1
+  carousel_slider: ^4.1.1
 
 dev_dependencies:
   flutter_test:

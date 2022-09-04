@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
         title: 'College Hub',
         theme: Themes.light,
         darkTheme: Themes.dark,
-        home:  const Home(),
+        home:   Home(),
       );
     });
   }
