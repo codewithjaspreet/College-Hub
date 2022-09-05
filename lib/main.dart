@@ -1,14 +1,15 @@
+import 'package:college_hub/Screens/cleaning.dart';
 import 'package:college_hub/Screens/home.dart';
 import 'package:college_hub/Screens/laundry.dart';
 import 'package:college_hub/theme.dart';
+import 'package:college_hub/widgets/cleaning_popup.dart';
+import 'package:college_hub/widgets/cleaning_popup_2.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 
-
-
 void main() {
-  runApp( const MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -19,6 +20,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return ScreenUtilInit(
       designSize: const Size(375, 812),
+      //designSize: const Size(360, 720),
       minTextAdapt: true,
       splitScreenMode: true,
       builder: (context, a) {
