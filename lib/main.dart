@@ -1,5 +1,6 @@
 import 'package:college_hub/Screens/cleaning.dart';
 import 'package:college_hub/Screens/home.dart';
+import 'package:college_hub/Screens/laundry.dart';
 import 'package:college_hub/theme.dart';
 import 'package:college_hub/widgets/cleaning_popup.dart';
 import 'package:college_hub/widgets/cleaning_popup_2.dart';
@@ -21,16 +22,14 @@ class MyApp extends StatelessWidget {
       designSize: const Size(375, 812),
       //designSize: const Size(360, 720),
       minTextAdapt: true,
-
       splitScreenMode: true,
       builder: (context, a) {
-        return GetMaterialApp(
-          theme: Themes.light,
-          darkTheme: Themes.dark,
-          debugShowCheckedModeBanner: false,
-          home: Cleaning(),
-        );
-      },
-    );
+      return GetMaterialApp(
+        theme: Themes.light,
+        darkTheme: Themes.dark,
+        debugShowCheckedModeBanner: false,
+        home:   Laundry(),
+      );
+    });
   }
 }

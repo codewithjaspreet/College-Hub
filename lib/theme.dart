@@ -54,22 +54,27 @@ class Themes {
         fontSize: 15.sp,
         fontWeight: FontWeight.w400,
         fontFamily: GoogleFonts.poppins().fontFamily,
+        color: Colors.black
       ),
       bodyText2: TextStyle(
-          fontSize: 10.sp,
-          fontWeight: FontWeight.w800,
-          fontFamily: GoogleFonts.workSans().fontFamily,
-          color: const Color(0xff22A8B9)),
-      // button: TextStyle(
-      //   fontSize: 14.sp,
-      //   fontWeight: FontWeight.w500,
-      //   letterSpacing: 1.25,
-      // ),
-      // caption: TextStyle(
-      //   fontSize: 12.sp,
-      //   fontWeight: FontWeight.w400,
-      //   letterSpacing: 0.4,
-      // ),
+       fontSize: 10.sp,
+        fontWeight: FontWeight.w800,
+        fontFamily: GoogleFonts.workSans().fontFamily,
+        color: const Color(0xff22A8B9)
+      ),
+      button: TextStyle(
+        fontSize: 17.sp,
+        fontWeight: FontWeight.w700,
+        fontFamily: GoogleFonts.poppins().fontFamily,
+      ),
+      caption: TextStyle(
+        fontSize: 14.sp,
+        fontWeight: FontWeight.w600,
+        // height: 21.sp,
+        color: const Color(0xff888888),
+        // fontFamily: GoogleFonts.raleway().fontFamily,
+      ),
+
       // overline: TextStyle(
       //   fontSize: 10.sp,
       //   fontWeight: FontWeight.w400,
@@ -83,15 +88,18 @@ class Themes {
     shadowColor: const Color(0xff333333),
     disabledColor: const Color(0xff666666),
     canvasColor: const Color(0xffF5C443),
+    cardColor: const Color(0xffEEEEEE),
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
-          foregroundColor: const Color(0xff22A8B9),
+          backgroundColor: const Color(0xff22A8B9),
           maximumSize: Size(343.w, 55.h),
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(12.r),
           ),
           textStyle:
-              TextStyle(color: const Color(0xffffffff), fontSize: 17.sp)),
+              TextStyle(color: const Color(0xffffffff),
+              fontFamily: GoogleFonts.poppins().fontFamily,
+               fontSize: 17.sp)),
     ),
     bottomAppBarColor: Colors.deepPurple,
     buttonTheme: const ButtonThemeData(
