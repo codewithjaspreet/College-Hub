@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+import '../widgets/button.dart';
+
 class Cleaning extends StatelessWidget {
   const Cleaning({Key? key}) : super(key: key);
 
@@ -202,27 +204,8 @@ class Cleaning extends StatelessWidget {
           SizedBox(
             height: 6.h,
           ),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Container(
-                width: 314.w,
-                child: Center(
-                  child: Text(
-                    'Submit Request',
-                    style: TextStyle(
-                      fontSize: 17.sp,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                ),
-                height: 48.h,
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.all(Radius.circular(16.sp)),
-                  color: Color(0xFF22A8B9),
-                ),
-              )
-            ],
+          button(
+            text: 'Submit Request',
           )
         ],
       ),
@@ -250,7 +233,7 @@ class timming extends StatelessWidget {
       child: Center(
           child: Text(
         time,
-        style: TextStyle(color: Colors.black),
+        style: TextStyle(color: Colors.white),
       )),
     );
   }
