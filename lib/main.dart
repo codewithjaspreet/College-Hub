@@ -1,14 +1,12 @@
 import 'package:college_hub/Screens/cleaning.dart';
 import 'package:college_hub/Screens/home.dart';
+import 'package:college_hub/Screens/laundry.dart';
 import 'package:college_hub/theme.dart';
 import 'package:college_hub/widgets/cleaning_popup.dart';
 import 'package:college_hub/widgets/cleaning_popup_2.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-
-import 'Screens/Appointment.dart';
-import 'Screens/TuckShop.dart';
 
 void main() {
   runApp(const MyApp());
@@ -24,16 +22,14 @@ class MyApp extends StatelessWidget {
       designSize: const Size(375, 812),
       //designSize: const Size(360, 720),
       minTextAdapt: true,
-
       splitScreenMode: true,
       builder: (context, a) {
-        return GetMaterialApp(
-          theme: Themes.light,
-          darkTheme: Themes.dark,
-          debugShowCheckedModeBanner: false,
-          home: Appointment(),
-        );
-      },
-    );
+      return GetMaterialApp(
+        theme: Themes.light,
+        darkTheme: Themes.dark,
+        debugShowCheckedModeBanner: false,
+        home:   Laundry(),
+      );
+    });
   }
 }
