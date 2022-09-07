@@ -138,7 +138,7 @@ class Top extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.start,
                   children: [
                     Text(
-                      'Hi, ' + 'Harry',
+                      'Hi, ' 'Harry',
                       style: Theme.of(context).textTheme.headline5,
                     ),
                     SizedBox(

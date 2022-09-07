@@ -1,6 +1,4 @@
-import 'dart:math' as math;
 
-import 'package:carousel_slider/carousel_slider.dart';
 import 'package:college_hub/Widgets/categories.dart';
 import 'package:college_hub/Widgets/topn_carousel.dart';
 import 'package:flutter/material.dart';

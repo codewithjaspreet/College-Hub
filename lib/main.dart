@@ -1,10 +1,10 @@
 import 'package:college_hub/Screens/food_outlets/food_outlet.dart';
 import 'package:college_hub/Screens/TuckShop.dart';
 import 'package:college_hub/Screens/cleaning.dart';
-import 'package:college_hub/Screens/home.dart';
-import 'package:college_hub/Screens/laundry.dart';
 import 'package:college_hub/theme.dart';
+
 import 'package:college_hub/widgets/cleaning_popup.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
@@ -29,7 +29,9 @@ class MyApp extends StatelessWidget {
         theme: Themes.light,
         darkTheme: Themes.dark,
         debugShowCheckedModeBanner: false,
-        home:   const FoodOutlet(),
+
+        home:   const Cleaning(),
+
       );
     });
   }
