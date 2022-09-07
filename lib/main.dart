@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
         theme: Themes.light,
         darkTheme: Themes.dark,
         debugShowCheckedModeBanner: false,
-        home:   ShopList(),
+        home:   const ShopList(),
       );
     });
   }

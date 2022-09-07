@@ -12,27 +12,43 @@ class ShopList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.transparent,
+      backgroundColor: Colors.white,
       appBar: AppBar(
         leading: Icon(
           Icons.arrow_back_ios,
-          color: Colors.white,
+          color: Colors.black,
         ),
         elevation: 0,
-        backgroundColor: Colors.transparent,
+        backgroundColor: Colors.white,
         title: Text(
-          'Book Appointment',
+          'Food Outlets',
           style: TextStyle(
-            color: Colors.white,
+            color: Colors.black,
             fontWeight: FontWeight.bold,
           ),
         ),
       ),
       body: SingleChildScrollView(
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
+          
           children: [
-            shopcard("assets/004-cardigan.png", "TuckShop")
+            Padding(
+              padding: EdgeInsets.all(8.0),
+              child: shopcard("assets/kathi.png", "TuckShop")
+              ),
+            Padding(
+              padding: EdgeInsets.all(8.0),
+              child: shopcard("assets/maggiehotspot.png", "TuckShop")
+              ),
+              Padding(
+              padding: EdgeInsets.all(8.0),
+              child: shopcard("assets/quench.png", "TuckShop")
+              ),
+              Padding(
+              padding: EdgeInsets.all(8.0),
+              child: shopcard("assets/chaiok.png", "TuckShop")
+              )
+
           ],
         ),
       ),

@@ -16,9 +16,9 @@ Widget shopcard(String imageurl,String name ) => Card(
                   image: AssetImage(
                     imageurl
                   ),
-                  height: 240,
+                  height: 200,
                   fit: BoxFit.cover,
-                ),
+                ), 
                 
               ],
             ),
