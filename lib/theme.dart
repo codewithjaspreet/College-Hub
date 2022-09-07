@@ -37,7 +37,6 @@ class Themes {
           fontSize: 14.sp,
           fontWeight: FontWeight.w500,
           fontFamily: GoogleFonts.inter().fontFamily,
-          height: 16.94.h,
           color: const Color(0xff161616)),
       subtitle1: TextStyle(
         fontSize: 12.sp,

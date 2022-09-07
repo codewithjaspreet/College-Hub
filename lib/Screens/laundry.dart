@@ -61,7 +61,7 @@ class Laundry extends StatelessWidget {
             SizedBox(
               height: 16.h,
             ),
-            Container(
+            SizedBox(
               height: 560.h,
               child: Container(
                 padding: EdgeInsets.symmetric(vertical: 26.h,horizontal: 20.w),
@@ -71,12 +71,12 @@ class Laundry extends StatelessWidget {
                         topLeft: Radius.circular(30.r),
                         topRight: Radius.circular(30.r))),
                 child: Column(children:  [
-                  LaundryList(),
-                  LaundryList(),
-                  LaundryList(),
-                  LaundryList(),
-                  LaundryList(),
-                  LaundryList(),
+                  const LaundryList(),
+                  const LaundryList(),
+                  const LaundryList(),
+                  const LaundryList(),
+                  const LaundryList(),
+                  const LaundryList(),
                   Container(
                      margin: EdgeInsets.only(top: 22.h),
                     child: ElevatedButton(

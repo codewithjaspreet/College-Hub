@@ -9,7 +9,7 @@ class SubmitLaundary extends StatelessWidget {
   Widget build(BuildContext context) {
     return Dialog(
         elevation: 0,
-        backgroundColor: Color(0xff99D9D9),
+        backgroundColor: const Color(0xff99D9D9),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(15.0),
         ),
@@ -26,6 +26,9 @@ class SubmitLaundary extends StatelessWidget {
                 child: Container(
                   height: 60.h,
                   width: 320.w,
+                  decoration: const BoxDecoration(
+                      color: Colors.red,
+                      borderRadius: BorderRadius.all(Radius.circular(10))),
                   child: Container(
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -34,7 +37,7 @@ class SubmitLaundary extends StatelessWidget {
                         SizedBox(
                           width: 3.w,
                         ),
-                        Text('T-shirt'),
+                        const Text('T-shirt'),
                         NumberSelection(
                           theme: NumberSelectionTheme(
                               draggableCircleColor: Colors.blue,
@@ -61,9 +64,6 @@ class SubmitLaundary extends StatelessWidget {
                       ],
                     ),
                   ),
-                  decoration: BoxDecoration(
-                      color: Colors.red,
-                      borderRadius: BorderRadius.all(Radius.circular(10))),
                 ),
               ),
             ],
