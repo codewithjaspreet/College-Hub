@@ -2,6 +2,8 @@ import 'package:college_hub/Screens/laundry.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+import '../widgets/button.dart';
+
 class Cleaning extends StatelessWidget {
   const Cleaning({Key? key}) : super(key: key);
 
@@ -118,6 +120,7 @@ color: const Color(0xff757575)
           SizedBox(
             height: 6.h,
           ),
+
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
@@ -140,6 +143,7 @@ color: const Color(0xff757575)
                 ),
               )
             ],
+
           )
         ],
       ),
@@ -198,10 +202,12 @@ class timming extends StatelessWidget {
       child: Center(
           child: Text(
         time,
+
         style: Theme.of(context).textTheme.subtitle1!.apply(
               fontSizeFactor: 0.9,
               color: const Color(0xff161616),
             ),
+
       )),
     );
   }
